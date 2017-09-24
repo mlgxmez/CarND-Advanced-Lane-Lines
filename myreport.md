@@ -63,11 +63,7 @@ Then we test the transformation on a real image and we obtained a top-down view 
 
 #### 3. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-I used a color threshold to generate a binary image. I made the conversion to the HLS color space and set manually the threshold values for the L and S channels in order to extract the lines. As you can see the L channel is used to get the right line whereas the S cahnnel is used to get the left line. This section is contained in the 8th and 9th cell of the first notebook and the results can be shown below these lines. 
-
-![alt text][image4]
-
-After setting the threshold values:
+I used a color threshold to generate a binary image. I made the conversion to the HSV color space and set manually the threshold in order to extract the lines. The code is in the 8th cell of the first notebook. The results can be shown below these lines. 
 
 ![alt text][image5]
 
